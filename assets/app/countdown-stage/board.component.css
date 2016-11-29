@@ -1,0 +1,31 @@
+input {
+    margin-bottom: 0;
+}
+
+.board {
+    border: solid 2px #0277bd;
+}
+
+.animations {
+    background-color: #81d4fa;
+    color: #ffffff;
+}
+
+.input-btn {
+    background-color: #01579b;
+}
+
+.input-field {
+    background-color: #ffffff;
+    margin-top: 0;
+    height: 36px;
+}
+
+.input-field input[type=text] {
+    margin-top: 0;
+    height: 34px;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #e0e0e0;
+}
