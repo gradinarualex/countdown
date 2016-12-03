@@ -38,16 +38,26 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="238">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-                <marker date="1480728434436" expanded="true" signature="139:338" ph="..." />
-                <marker date="1480728434436" expanded="true" signature="195:323" ph="..." />
-                <marker date="1480728434436" expanded="true" signature="339:343" ph="..." />
-                <marker date="1480728434436" expanded="true" signature="372:450" ph="{...}" />
-                <marker date="1480728434436" expanded="true" signature="473:515" ph="{...}" />
+                <marker date="1480728808082" expanded="true" signature="139:342" ph="..." />
+                <marker date="1480728808082" expanded="true" signature="199:327" ph="..." />
+                <marker date="1480728808082" expanded="true" signature="343:347" ph="..." />
+                <marker date="1480728808082" expanded="true" signature="376:454" ph="{...}" />
+                <marker date="1480728808082" expanded="true" signature="477:519" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,8 +65,8 @@
       <file leaf-file-name="title.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/countdown-stage/title.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            <state relative-caret-position="374">
+              <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding>
                 <marker date="1480727703080" expanded="true" signature="178:424" ph="..." />
                 <marker date="1480727703080" expanded="true" signature="215:409" ph="..." />
@@ -125,16 +135,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/countdown-stage/display.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -441,12 +441,12 @@
       <workItem from="1480504324598" duration="208000" />
       <workItem from="1480518991831" duration="3490000" />
       <workItem from="1480682177303" duration="8974000" />
-      <workItem from="1480720667822" duration="5404000" />
+      <workItem from="1480720667822" duration="5812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54271000" />
+    <option name="totallyTimeSpent" value="54679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,18 +513,12 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/app/countdown-stage/display.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/countdown-stage/display.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -591,11 +585,11 @@
           <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1480728434436" expanded="true" signature="139:338" ph="..." />
-            <marker date="1480728434436" expanded="true" signature="195:323" ph="..." />
-            <marker date="1480728434436" expanded="true" signature="339:343" ph="..." />
-            <marker date="1480728434436" expanded="true" signature="372:450" ph="{...}" />
-            <marker date="1480728434436" expanded="true" signature="473:515" ph="{...}" />
+            <marker date="1480728808082" expanded="true" signature="139:342" ph="..." />
+            <marker date="1480728808082" expanded="true" signature="199:327" ph="..." />
+            <marker date="1480728808082" expanded="true" signature="343:347" ph="..." />
+            <marker date="1480728808082" expanded="true" signature="376:454" ph="{...}" />
+            <marker date="1480728808082" expanded="true" signature="477:519" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -841,22 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/countdown-stage/title.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding>
-            <marker date="1480727703080" expanded="true" signature="178:424" ph="..." />
-            <marker date="1480727703080" expanded="true" signature="215:409" ph="..." />
-            <marker date="1480727703080" expanded="true" signature="239:388" ph="..." />
-            <marker date="1480727703080" expanded="true" signature="264:363" ph="..." />
-            <marker date="1480727703080" expanded="true" signature="462:503" ph="{...}" />
-            <marker date="1480727703080" expanded="true" signature="519:641" ph="{...}" />
-            <marker date="1480727703080" expanded="true" signature="658:895" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/countdown-stage/board.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -873,17 +851,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="true" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/countdown-stage/title.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <marker date="1480727703080" expanded="true" signature="178:424" ph="..." />
+            <marker date="1480727703080" expanded="true" signature="215:409" ph="..." />
+            <marker date="1480727703080" expanded="true" signature="239:388" ph="..." />
+            <marker date="1480727703080" expanded="true" signature="264:363" ph="..." />
+            <marker date="1480727703080" expanded="true" signature="462:503" ph="{...}" />
+            <marker date="1480727703080" expanded="true" signature="519:641" ph="{...}" />
+            <marker date="1480727703080" expanded="true" signature="658:895" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
-            <marker date="1480728434436" expanded="true" signature="139:338" ph="..." />
-            <marker date="1480728434436" expanded="true" signature="195:323" ph="..." />
-            <marker date="1480728434436" expanded="true" signature="339:343" ph="..." />
-            <marker date="1480728434436" expanded="true" signature="372:450" ph="{...}" />
-            <marker date="1480728434436" expanded="true" signature="473:515" ph="{...}" />
+            <marker date="1480728808082" expanded="true" signature="139:342" ph="..." />
+            <marker date="1480728808082" expanded="true" signature="199:327" ph="..." />
+            <marker date="1480728808082" expanded="true" signature="343:347" ph="..." />
+            <marker date="1480728808082" expanded="true" signature="376:454" ph="{...}" />
+            <marker date="1480728808082" expanded="true" signature="477:519" ph="{...}" />
           </folding>
         </state>
       </provider>
