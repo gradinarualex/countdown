@@ -5,7 +5,7 @@ import 'rxjs/Rx';
     selector: 'cd-app',
     template: `
         <div class="row">
-            <div class="col s4 offset-s4">
+            <div class="col s4 m4 offset-s4 offset-m4">
                 <cd-title></cd-title>
                 <cd-board></cd-board>
                 <div>Score</div>
