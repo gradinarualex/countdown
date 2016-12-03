@@ -1,10 +1,15 @@
-.display {
+.words-pannel {
     border: 2px solid #01579b;
-    padding: 0;
+    margin-bottom: 0;
+}
+
+.words-buttons {
+    border-top: 2px solid #e0e0e0;
     margin-bottom: 0;
 }
 
 table {
+    padding: 0;
     empty-cells: show;
 }
 

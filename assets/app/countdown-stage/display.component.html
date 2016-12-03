@@ -1,13 +1,21 @@
-<div class="row blue-text display">
-    <table class="centered">
-        <tbody>
-        <tr>
-            <td *ngFor="let letter of word">{{letter}}</td>
-        </tr>
-        <tr>
-            <td *ngFor="let letter of word"></td>
-        </tr>
-        </tbody>
-    </table>
-
+<div class="display">
+    <div class="row blue-text words-pannel">
+        <table class="centered">
+            <tbody>
+            <tr>
+                <td *ngFor="let letter of jumbleWord">{{letter}}</td>
+            </tr>
+            <tr>
+                <td *ngFor="let letter of answerWord">{{letter}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="row centered words-buttons">
+        <cd-button (click)="vowelClicked()"
+                   [disable]="jumbleIndex >= 9">Vowel</cd-button>
+        <cd-button (click)="consonantClicked()"
+                   [disable]="jumbleIndex >= 9">Consonant</cd-button>
+    </div>
 </div>
+

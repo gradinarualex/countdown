@@ -2,6 +2,10 @@ input {
     margin-bottom: 0;
 }
 
+.row {
+    margin-bottom: 0;
+}
+
 .board {
     border: solid 2px #0277bd;
 }

@@ -1,28 +1,17 @@
-<div class="row">
-    <div class="col s4 offset-s4">
+        <cd-display [answerWord]="defaultAnswer"></cd-display>
 
-        <cd-display [word]="defWord"></cd-display>
+        <div class="row">
+            <div class="col s6 user-feedback">
+                "You're doing fine..."
+            </div>
 
-        <div class="row centered buttons">
-            <button class="col s6 btn waves-effect waves-light light-blue darken-4"
-                    (click)="vowelClicked()"
-                    [class.disabled]="index >= 9"
-            >Vowel</button>
-            <button class="col s6 btn waves-effect waves-light light-blue darken-4"
-                    (click)="consonantClicked()"
-                    [class.disabled]="index >= 9"
-            >Consonant</button>
-        </div>
-
-        <div class="row animations">
-            This is it.
+            <cd-clock class="col s6"></cd-clock>
         </div>
 
         <div class="row user-input">
             <div class="input-field col s7">
                 <input placeholder="What have you got?" id="word-input" type="text">
             </div>
-            <button class="col s5 input-btn btn waves-effect waves-light">Lock In</button>
+            <button class="col s5 input-btn btn waves-effect waves-light"
+                    [class.disabled]="true">Lock In</button>
         </div>
-    </div>
-</div>
